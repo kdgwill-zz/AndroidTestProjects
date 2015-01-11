@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize">
+    <!--Ensures that in actionbar overlay mode everything appears under actionbar to prevent occlusion-->
+
+    <TextView
+        android:id="@+id/lifeCycleHint"
+        android:text="@string/life_cycle_hint"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/lifeCycleText"
+        android:text="@string/title_activity_life_cycle"
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/endLifecycleIntent"
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:hint="@string/button_endLifecycleActivity"
+        android:onClick="endLifeCycleIntent" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize">
+    <!--Ensures that in actionbar overlay mode everything appears under actionbar to prevent occlusion-->
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:layout_weight="11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/title_activity_test_action_bar" />
+
+    <Button
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="@string/toggle"
+        android:onClick="toggleActionBar" />
+
+</LinearLayout>

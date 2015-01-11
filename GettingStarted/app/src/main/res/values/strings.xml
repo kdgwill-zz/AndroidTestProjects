@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN -->
+    <string name="app_name">Getting Started</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- DISPLAY  MESSAGE ACTIVITY -->
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- ACTION BAR ACTIVITY -->
+    <string name="button_actionBarActivity">Start Action Bar Activity</string>
+    <string name="title_activity_test_action_bar">Actionbar Activity</string>
+    <string name="action_search">Search</string>
+    <string name="toggle">Toggle</string>
+    <!-- LIFE CYCLE ACTIVITY -->
+    <string name="title_activity_life_cycle">LifeCycle Activity</string>
+    <string name="button_lifecycleActivity">Start LifeCycle Activity</string>
+    <string name="button_endLifecycleActivity">End LifeCycle Activity</string>
+    <string name="life_cycle_hint">Tilt Screen</string>
+    <!-- FRAGMENTED ACTIVITY -->
+    <string name="title_activity_fragmented">FragmentedActivity</string>
+    <string name="button_FragmentedActivity">Start Fragment Activity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_DataStorageActivity">Start DataStorage Activity</string>
+    <!-- DATA SAVING ACTIVITY -->
+
+    <string name="title_activity_data_storage">DataStorageActivity</string>
+
+</resources>

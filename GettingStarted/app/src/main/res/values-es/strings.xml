@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+         <!--PRINCIPAL-->
+         <string name = "app_name"> Introducción </string>
+         <string name = "edit_message"> Ingrese un mensaje </string>
+         <string name = "button_send"> Enviar </string>
+         <string name = "action_settings"> Configuración </string>
+         <string name = "title_activity_main">ActividadPrincipal</string>
+</resources>

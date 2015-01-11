@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!--target min api to 11 since current is 8 to prevent error message-->
+        <item name="android:actionBarStyle" tools:targetApi="11">@style/MyActionBar</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+
+        <!--Custom Text Color-->
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionBarTabTextStyle" tools:targetApi="11">
+            @style/MyActionBarTabText
+        </item>
+
+        <item name="actionMenuTextColor">@color/actionbar_text</item>
+        <item name="android:actionMenuTextColor" tools:targetApi="11">@color/actionbar_text</item>
+
+        <!--Actionbar Overlay mode-->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay" tools:targetApi="11">true</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/actionbar_background</item>
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_background</item>
+
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+        <item name="android:titleTextStyle" tools:targetApi="11">@style/MyActionBarTitleText</item>
+    </style>
+
+    <!--ActionBar title text -->
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <!--The textColor property is backward compatible with the support Library-->
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <!--ActionBar tabs text -->
+    <style name="MyActionBarTabText" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <!--The textColor property is backward compatible with the support Library-->
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <color name="actionbar_text">@color/gainsboro</color>
+</resources>
