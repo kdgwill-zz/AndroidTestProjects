@@ -56,5 +56,13 @@
         android:hint="@string/button_DataStorageActivity"
         android:onClick="startIntent" />
 
+    <Button
+        android:id="@+id/startImplicitIntentIntent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:hint="@string/button_implicitIntentActivity"
+        android:onClick="startIntent" />
+
 
 </LinearLayout>

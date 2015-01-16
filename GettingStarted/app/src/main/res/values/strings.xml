@@ -26,7 +26,23 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="button_DataStorageActivity">Start DataStorage Activity</string>
     <!-- DATA SAVING ACTIVITY -->
-
     <string name="title_activity_data_storage">DataStorageActivity</string>
+    <string name="preference_file_key">com.cuboid.gettingstarted.savedata.PREFERENCE_FILE_KEY</string>
+    <string name="saved_high_score">com.cuboid.gettingstarted.savedata.SAVED_HIGH_SCORE</string>
+    <!-- DATA SAVING ACTIVITY -->
+    <string name="title_activity_implicit_intent">ImplicitIntentActivity</string>
+    <string name="button_dial_intent">Dial Number</string>
+    <string name="button_map_intent">Map Directions</string>
+    <string name="button_web_intent">Open Webpage</string>
+    <string name="button_email_intent">Send Email</string>
+    <string name="button_calendar_intent">Add To Calendar</string>
+    <string name="toggle_show_app_chooser_on">Toggle Use App Chooser On</string>
+    <string name="toggle_show_app_chooser_off">Toggle Use App Chooser Off</string>
+    <string name="button_get_contact_details">Get Contact Info</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_shared_intent">SharedIntentActivity</string>
+    <string name="button_implicitIntentActivity">Start ImplicitIntent Activity</string>
+    <string name="text_implicitIntentSection_1">SECTION 1</string>
+    <string name="text_implicitIntentSection_2">SECTION 2</string>
 
 </resources>

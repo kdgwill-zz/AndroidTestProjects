@@ -10,6 +10,7 @@ import android.widget.EditText;
 
 import com.cuboid.gettingstarted.actionBar.TestActionBarActivity;
 import com.cuboid.gettingstarted.fragment.FragmentedActivity;
+import com.cuboid.gettingstarted.implicit_intent.ImplicitIntentActivity;
 import com.cuboid.gettingstarted.intro.DisplayMessageActivity;
 import com.cuboid.gettingstarted.lifecycle.LifeCycleActivity;
 import com.cuboid.gettingstarted.savedata.DataStorageActivity;
@@ -82,6 +83,9 @@ public class MainActivity extends ActionBarActivity {
                 break;
             case R.id.startDataStorageIntent:
                 intent = new Intent(this, DataStorageActivity.class);
+                break;
+            case R.id.startImplicitIntentIntent:
+                intent = new Intent(this, ImplicitIntentActivity.class);
                 break;
             default:
                 break;
